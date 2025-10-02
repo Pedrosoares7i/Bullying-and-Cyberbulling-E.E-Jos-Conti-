@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+    --azul-principal: #004aad;
+    --azul-secundario: #3399FF;
+    --amarelo-alerta: #FFC72C;
+    --branco-limpo: #FFFFFF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Zalando Sans', sans-serif;
+}
+
+#navbar {
+    background-color: var(--branco-limpo);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 1. Logo */
+#logo {
+    width: 250px;
+    height: auto;
+}
+
+#nav-links-group {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+#nav-links-group a {
+    text-decoration: none;
+    color: var(--azul-secundario);
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+
+}
+
+
+#nav-links-group a:hover {
+    color: var(--amarelo-alerta);
+}
+
+#denuncie-btn {
+    background-color: var(--amarelo-alerta);
+    color: var(--azul-principal) !important;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+#denuncie-btn:hover {
+    background-color: #e5b326;
+    color: var(--azul-principal) !important;
+}
+
+/* css navbar */
