@@ -653,3 +653,70 @@ footer {
 span {
     font-weight: 900;
 }
+
+/* --- ESTILOS DO RODAPÉ (FOOTER) --- */
+
+#main-footer {
+    background-color: var(--azul-principal);
+    color: var(--branco-limpo);
+    padding: 40px 20px 15px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 25px;
+}
+
+.footer-team,
+.footer-advisor {
+    flex-basis: 45%;
+}
+
+#main-footer h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: var(--amarelo-alerta);
+    /* Destaque para os títulos */
+}
+
+#main-footer h2 span {
+    color: var(--branco-limpo);
+    font-weight: 500;
+}
+
+#main-footer ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#main-footer li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.footer-advisor p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.footer-copy {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.footer-copy p {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+}
