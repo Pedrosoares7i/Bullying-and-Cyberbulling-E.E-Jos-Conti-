@@ -643,3 +643,13 @@ body {
     font-size: 0.95rem;
     line-height: 1.4;
 }
+
+footer {
+    background-color: #3399FF;
+    color: white;
+    text-align: center;
+}
+
+span {
+    font-weight: 900;
+}
